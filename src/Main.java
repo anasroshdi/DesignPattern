@@ -2,6 +2,8 @@ import behavioural.chainOfResponsibility.*;
 import behavioural.strategy.CreditCard;
 import behavioural.strategy.PaymentCreditCard;
 import behavioural.strategy.PaymentService;
+import creational.factoryMethod.Restaurant;
+import creational.factoryMethod.VeggieBurgerRestaurant;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,5 +22,11 @@ public class Main {
 //        paymentService.setIncludeDelivery(false);
 //        paymentService.setCost(200);
 //        paymentService.processOrder();
+
+        //Factory Method Design Pattern
+//        Restaurant restaurant = new VeggieBurgerRestaurant();
+//        restaurant.orderBurger();
+
+
     }
 }
